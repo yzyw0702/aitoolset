@@ -5,4 +5,4 @@ useful modules for operations of dataset, normalization, prediction, transfer le
 > * Monte Carlo based Finite State Machine (FSM)
 > * bayesian model
 > * shallow ANN prediction function
-> * demension analysis tools in ANN
+> * dimension analysis tools in ANN

@@ -33,7 +33,6 @@ def createConvNet(tfStackInput, shapeInput, lLayerParams, isTrain):
 			wK = paramsL['kernel_width']
 			hK = paramsL['kernel_height']
 			nK = paramsL['kernel_number']
-			print('L-%d\t%dx%dx%dx%d' % (iL, wK, hK, prevNK, nK))
 			layerunit = MConvUnit(wK, hK, prevNK, nK, layer_name=nameL)
 			outputL = layerunit.flowFrom(inputL, isTrain, isPool=True, probDropout=probDropout)
 			inputL = outputL

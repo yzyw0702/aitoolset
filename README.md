@@ -3,9 +3,10 @@ useful modules for operations of dataset, normalization, prediction, transfer le
 
 ## aims
 > * `TF-based: traditional CNN layer unit (MConvLayer.py)`
-> * TF-based: ResNet layer unit (MResLayer.py)
-> * TF-based: general neural networks (MNet.py): `CNN`, ResNet, RNN, LSTM, RCNN, Insight
-> 
+> * `keras-based: ResNet layer unit (keras_resnet.py)
+> * tf-based: general neural networks (MNet.py): `CNN`, ResNet, RNN
+> * keras-based: Region-CNN (keras_resnet.py), Faster RCNN
+> * tf-based: reinforcement learning
 > * naive bayesian model
 
 ## updates
